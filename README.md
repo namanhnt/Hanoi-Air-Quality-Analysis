@@ -1,5 +1,5 @@
 # Hanoi Air Quality Analysis
-![hoguom](https://github.com/namanhnt/Hanoi-Air-Quality-Analysis/assets/139054152/ff3fa853-5be3-4ed9-8b22-bec9b6a01bfe)
+![hoguom1](https://github.com/namanhnt/Hanoi-Air-Quality-Analysis/assets/139054152/de0b9e87-0155-4bb3-9e95-cb69624bb2eb)
 
 *By Nam Aaron Nguyen*
 ## I. Introduction
