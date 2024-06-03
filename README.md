@@ -43,6 +43,7 @@ Regarding data gathering, I have set up a seperate notebook for this part named 
 ![Average PM2 5 Concentration per Season](https://github.com/namanhnt/Hanoi-Air-Quality-Analysis/assets/139054152/75fb6eac-87dd-44d4-aeb6-66500ee17b21)
 
 *To identify seasonal trends in PM2.5 level, I grouped the dataset by four seasons (**Spring**: February, March, April; **Summer**: May, June, July; **Autumn**: August, September, October; **Winter**: November, December, January) and computed the mean PM2.5 concentration for each season. Based on the estimation, winter observed the highest average PM2.5 concentration at 83.86 μg/m³ and it is the only season that has Pm2.5 level above Unhealthy benmarck. Spring and autumn figures are in Unhealthy for Sensitive Group range while summer average Pm2.5 level is in Moderate range.*
+
 ### Effect of Weather Conditions on Hanoi Air Quality
 According to [VnExpress](https://e.vnexpress.net/news/environment/hanoi-s-air-quality-dropping-over-large-scales-4719205.html), it is indicated that the air pollution in Hanoi mainly came from PM2.5 dusts. Hence, I will choose PM2.5 as the variable measuring air quality. For the weather condition, I will choose precipitation, humidity, temperature, and wind speed as the weather condition variables.
 
@@ -88,6 +89,7 @@ According to [VnExpress](https://e.vnexpress.net/news/environment/hanoi-s-air-qu
 
 ### PM2.5 Time Series Analysis
 ARIMA(5,1,1) was chosen as the best model for time series prediction. The model's mean absolute error (MAE) was lower than the MAE baseline. For evaluation, I used the Walk-forward Validation making predictions for the next time step and updating the model with the actual observation for that time step. The result is shown as the plot below:
+
 ![TIME SERIES](https://github.com/namanhnt/Hanoi-Air-Quality-Analysis/assets/139054152/a40b6e19-bf3f-49cd-bd5a-fb320183a986)
 
 *The plot above shows the comparison between the PM2.5 test data and the Walk-Forward Prediction. The blue line represents the actual PM2.5 levels observed in the test dataset, while the orange line represents the predictions made by the ARIMA model using walk-forward validation.*
