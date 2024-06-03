@@ -53,38 +53,38 @@ According to [VnExpress](https://e.vnexpress.net/news/environment/hanoi-s-air-qu
 
 ![Precip Hours](https://github.com/namanhnt/Hanoi-Air-Quality-Analysis/assets/139054152/e0ffc0cd-f761-4f84-8bf0-4f64452493fe)
 
-**Observation:** *The visual representation illustrates a negative correlation coefficient of -0.12, suggesting a very low correlation, which may be considered insignificant. However, upon closer examination for trends and patterns, it becomes apparent that the more hours it rains, the less Pm2.5 pollutant it is. Thus, it can be inferred that as the duration of rainfall increases, the PM2.5 level tends to decrease.*
+**Observation:** *The visual representation illustrates a negative correlation coefficient of -0.12, suggesting a very low correlation, which may be considered insignificant. However, upon closer examination for trends and patterns, it becomes apparent that the more hours it rains, the less Pm2.5 pollutant it is. Thus, it can be inferred that as **the duration of rainfall increases, the PM2.5 level tends to decrease**.*
 
 ***Relationship Between Precipitation Amount and PM2.5 Level***
 
 ![Precip Amount](https://github.com/namanhnt/Hanoi-Air-Quality-Analysis/assets/139054152/44f39e65-26b2-49d9-8f93-c03df719bfb6)
 
-**Observation:** *The correlation between precipitation amount and PM2.5 is almost 0, this means that there is no linear relationship between the two variables. On looking for patterns, it is observed that for high amount of precipitation hours, there seem to be low level of PM2.5. It is safe to say that the more heavy it rains, the lower the PM2.5 level is.*
+**Observation:** *The correlation between precipitation amount and PM2.5 is almost 0, this means that there is no linear relationship between the two variables. On looking for patterns, it is observed that for high amount of precipitation hours, there seem to be low level of PM2.5. It is safe to say that **the more heavy it rains, the lower the PM2.5 level is.***
 
 - **Does Pressure Affect Air Quality?**
   
 ![Pressure](https://github.com/namanhnt/Hanoi-Air-Quality-Analysis/assets/139054152/f53eec3d-877e-48c6-ae69-9d70f559e75d)
 
-**Observation:** *The correlation coefficient between atmospheric pressure and Pm2.5 level shows a figure of 0.3, indicating a moderate correlation. It becomes clear that the higher the pressure, the higher the Pm2.5 level. As explained by the [University Corporation for Atmospheric Research](https://scied.ucar.edu/learning-zone/air-quality/how-weather-affects-air-quality), low-pressure systems bring wet and windy conditions. A passing rain can wash pollutants out of the atmosphere or transport them to a new area, producing clear skies. In the contrary, high-pressure systems can lead to stagnant air, where pollutants such as vehicle and factory exhaust become concentrated as the air stops moving.*
+**Observation:** *The correlation coefficient between atmospheric pressure and Pm2.5 level shows a figure of 0.3, indicating a moderate correlation. It becomes clear that **the higher the pressure, the higher the Pm2.5 level**. As explained by the [University Corporation for Atmospheric Research](https://scied.ucar.edu/learning-zone/air-quality/how-weather-affects-air-quality), low-pressure systems bring wet and windy conditions. A passing rain can wash pollutants out of the atmosphere or transport them to a new area, producing clear skies. In the contrary, high-pressure systems can lead to stagnant air, where pollutants such as vehicle and factory exhaust become concentrated as the air stops moving.*
 
 - **Does Humidity Affect Air Quality?**
   
 ![Humidity](https://github.com/namanhnt/Hanoi-Air-Quality-Analysis/assets/139054152/99104e87-7f8d-4eee-90e0-6eb00442741b)
 
-**Observation:** *The correlation between humidity and the PM2.5 Level is almost zero, indicating no significant relationship. Upon examining the scatter plot, no clear pattern emerges, suggesting that humidity may not be a significant factor influencing PM2.5 levels.*
+**Observation:** *The correlation between humidity and the PM2.5 Level is almost zero, indicating no significant relationship. Upon examining the scatter plot, no clear pattern emerges, suggesting that **humidity may not be a significant factor influencing PM2.5 levels**.*
 
 - **Does Temperature Affect Air Quality?**
   
 ![Temp](https://github.com/namanhnt/Hanoi-Air-Quality-Analysis/assets/139054152/2673da09-9b3c-4939-8805-d64760b06afc)
 
-**Observation:** *The graph depicted a negative correlation coefficient of -0.25, suggesting a low correlation between temperature and Pm2.5 index. However, upon closer examination for trends and patterns, the colder the temperature is, the higher the Pm2.5 level is.*
+**Observation:** *The graph depicted a negative correlation coefficient of -0.25, suggesting a low correlation between temperature and Pm2.5 index. However, upon closer examination for trends and patterns, **the colder the temperature is, the higher the Pm2.5 level is**.*
 *[University Corporation for Atmospheric Research](https://scied.ucar.edu/learning-zone/air-quality/how-weather-affects-air-quality) explained that during the winter the layer of warm air acts like a lid, keeping cold air at the surface. This creates a thermal inversion, which forms when a layer of warm air above traps cool air and pollution close to the ground.*
 
 - **Does Wind Speed Affect Air Quality?**
   
 ![Wind](https://github.com/namanhnt/Hanoi-Air-Quality-Analysis/assets/139054152/e4d9a46d-c142-4a2f-a4cf-523b55954970)
 
-**Observation:** *The graph showed a negative correlation coefficient of -0.16, suggesting a very low correlation, which may be considered insignificant. However, upon closer examination for trends and patterns, it illustrates that the more windy it is, the less Pm2.5 pollutant it is.*
+**Observation:** *The graph showed a negative correlation coefficient of -0.16, suggesting a very low correlation, which may be considered insignificant. However, upon closer examination for trends and patterns, it illustrates that **the more windy it is, the less Pm2.5 pollutant it is**.*
 *Explained by [IQAir](https://www.iqair.com/newsroom/wind-weather-air-pollution), when pollutants accumulate in an area, wind can play a crucial role in dispersing them, potentially reducing their concentration in that specific region. This process can also carry pollutants away from their original source, mitigating their impact over a larger area.*
 
 ### PM2.5 Time Series Analysis
