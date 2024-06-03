@@ -24,7 +24,22 @@ For air quality data and weather data, Weatherbit's API can retrieve historical 
 Regarding data gathering, I have set up a seperate notebook for this part named [Part 1 - Extract and Clean Data from API](https://github.com/namanhnt/Hanoi-Air-Quality-Analysis/blob/main/Part%201%20-%20Extract%20and%20Clean%20Data%20from%20API.ipynb). Feel free to access it to see my data extraction and wrangling process.
 
 ## IV. Results
+### Exploratory Data Analysis
+- **Hanoi Hourly AQI Level (From March 2023 to March 2024)**
+![Hourlt AQI ](https://github.com/namanhnt/Hanoi-Air-Quality-Analysis/assets/139054152/1fb4f644-fdf6-4831-95a5-462e212a3a88)
 
+*From the graph, it can be seen that Hanoi's AQI fluctuates mostly in the range of 50-150 (Moderate to Unhealthy for Sensitive Groups). The figure rarely stayed in the Good level area (0-50). The index also had a high frequency of exceeding Unhealthy benchmark. Espescially, the figure was in Hazardous level (>300) at different timestamps from November to mid February, reaching its highest point throughout the year at 7pm February 2nd, 2024.*
+*In general, Hanoi faced critical air poluttion in the last year, which might servely impact its cityzens' health.*
+
+- **Hourly PM2.5 Concentration In the Day**
+![Hourly PM2 5 Concentration](https://github.com/namanhnt/Hanoi-Air-Quality-Analysis/assets/139054152/d5903994-b4f0-4c06-83df-15998ca61648)
+
+*To identify the peak hours of PM2.5 concentration throughout the day, I first segmented the dataset by hour and computed the mean PM2.5 concentration for each hour. Based on this estimation, the peak PM2.5 levels were observed at 8 AM, 9 AM, 7 PM, 8 PM, and 9 PM. These hours coincide with peak traffic periods, suggesting that vehicular emissions significantly contribute to PM2.5 pollution. Notably, the PM2.5 concentration steadily accumulated over the course of the day, culminating in its highest peaks at 7 PM, 8 PM, and 9 PM, with levels reaching 55.19 μg/m³, 57.75 μg/m³, and 54.89 μg/m³ respectively.*
+
+
+### Impact of Weather Conditions on Hanoi Air Quality
+
+### PM2.5 Time Series Analysis
 
 ## V. Air Pollution Advisory
 
