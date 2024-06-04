@@ -113,4 +113,4 @@ According to [New York State Deparment of Health](https://www.health.ny.gov/envi
 
 - ***Use an air purifier:*** Consider using an air purifier in your home with a HEPA filter, which can effectively remove PM2.5 particles from the air.
 
-<h1 align="center">LASTLY, STAY SAFE AND KEEP OUR LUNGS HEALTHY EVERYONE!</h1>
+<h1 align="center">LASTLY, STAY AIR-QUALITY ALERT AND KEEP OUR LUNGS HEALTHY EVERYONE!</h1>
