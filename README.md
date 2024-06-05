@@ -17,7 +17,7 @@ According to 2019 World Air Quality Report by [IQAir](https://www.iqair.com/worl
 ![aqi](https://github.com/namanhnt/Hanoi-Air-Quality-Analysis/assets/139054152/7a85dc63-d9f7-473b-821f-27769ef3d62d)
 
 ## III. Data Gathering
-In this project, I will use data from [Weatherbit](https://www.weatherbit.io/), which offers a comprehensive suite of APIs providing high-resolution weather data. This data is sourced from satellites, radars, weather stations, and various sensors.
+In this project, I will use data from [Weatherbit](https://www.weatherbit.io/), which offers a comprehensive suite of APIs providing high-resolution weather and AQI data. This data is sourced from satellites, radars, weather stations, and various sensors.
 
 For air quality data and weather data, Weatherbit's API can retrieve historical AQI data on an hourly basis, with a custom date range of up to 30 days for any location. Specifically, I will be retrieving AQI data and weather data for Hanoi, Vietnam.
 
